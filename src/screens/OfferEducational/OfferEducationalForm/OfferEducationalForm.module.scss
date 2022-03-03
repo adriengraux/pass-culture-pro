@@ -1,0 +1,15 @@
+.educational-form {
+  &-information {
+    @include caption();
+    margin-bottom: rem(32px);
+    color: $grey-dark;
+  }
+
+  &-banner {
+    margin-bottom: rem(32px) !important;
+  }
+}
+
+.educational-form .educational-form-adress-banner {
+  margin: 0;
+}

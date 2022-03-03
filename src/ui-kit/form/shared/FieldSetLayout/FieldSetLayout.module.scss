@@ -1,0 +1,12 @@
+.fieldset-layout {
+  border: none;
+  
+  &-legend {
+    margin-bottom: rem(16px);
+  }
+  
+  &-error {
+    margin-top: rem($input-space-before-error);
+    min-height: rem($input-error-reserved-space);
+  }
+}

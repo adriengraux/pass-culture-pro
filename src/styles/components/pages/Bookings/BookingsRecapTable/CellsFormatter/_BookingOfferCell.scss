@@ -1,0 +1,16 @@
+.booking-offer-name {
+  @include button();
+
+  max-width: rem(130px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.booking-offer-additional-info {
+  color: $grey-dark;
+}
+
+.booking-educational-tag {
+  margin-bottom: rem(5px);
+}

@@ -1,0 +1,16 @@
+.select-input {
+  @include input-theme();
+  padding-right: rem($input-right-icon-padding);
+
+  &.has-error {
+    @include input-theme-error();
+  }
+
+  &-icon {
+    @include input-icon-wrapper(20px);
+  }
+
+  &-wrapper {
+    position: relative;
+  }
+}

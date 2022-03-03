@@ -1,0 +1,25 @@
+tbody.reimbursement-body {
+  .date {
+    @include bold();
+  }
+
+  .business-unit {
+    width: rem(220px);
+  }
+
+  .amount {
+    padding: 0;
+    text-align: right;
+  }
+
+  .invoice {
+    text-align: right;
+    width: rem(220px);
+
+    svg {
+        height: unset;
+        width: unset;
+        margin-right: rem(8px);
+    }
+  }
+}

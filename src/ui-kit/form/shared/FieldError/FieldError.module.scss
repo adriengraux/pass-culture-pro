@@ -1,0 +1,18 @@
+.field-error {
+  @include caption();
+
+  color: $error-text-color;
+  display: flex;
+  line-height: rem(16px);
+  text-align: left;
+
+  svg {
+    height: rem(15px);
+    margin-right: rem(4px);
+    width: rem(15px);
+  }
+
+  &-text {
+    white-space: pre-wrap;
+  }
+}

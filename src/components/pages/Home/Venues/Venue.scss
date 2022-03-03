@@ -1,0 +1,55 @@
+.offerer-venue {
+  .h-card-header-row.h-card-is-open {
+    padding-bottom: rem(16px);
+  }
+
+  .h-card-header-row {
+    width: 100%;
+  }
+
+  .button-group {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    .tertiary-button, .tertiary-link {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .tertiary-link.add-rib-link {
+      color: $primary;
+
+      & .ico-plus {
+        fill: $primary;
+      }
+    }
+
+    &-separator {
+      height: rem(20px);
+      border-left: solid 1px $grey-medium;
+      margin-left: rem(16px);
+      margin-right: rem(12px);
+    }
+  }
+
+  .h-card-title {
+    .tertiary-button {
+      .h-card-title-ico {
+        margin-left: 0;
+        margin-right: rem(8px);
+      }
+
+      img {
+        height: rem(12px);
+        vertical-align: middle;
+        width: rem(12px);
+      }
+    }
+
+    .title-text {
+      display: block;
+      margin-right: rem(16px);
+    }
+  }
+}

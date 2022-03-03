@@ -1,0 +1,36 @@
+.field-layout {
+  &-label {
+    margin-bottom: rem($label-space-before-input);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  &-small-label &-label {
+    @include caption();
+  }
+
+  &-optional {
+    @include caption();
+    color: $grey-dark;
+  }
+
+  &-footer {
+    margin-top: rem($input-space-before-error);
+    display: flex;
+    justify-content: flex-end;
+    min-height: rem($input-error-reserved-space);
+  }
+
+  &-error {
+    flex: 1;
+  }
+
+  &-counter {
+    @include caption();
+    color: $grey-dark;
+    flex: initial;
+    justify-self: flex-end;
+  }
+}

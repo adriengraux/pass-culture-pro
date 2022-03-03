@@ -1,0 +1,26 @@
+.description-text {
+  margin-bottom: rem(24px);
+
+  &-italic {
+    font-style: italic;
+  }
+}
+
+.actions {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.price-details textarea {
+  min-height: rem(160px);
+}
+
+.separator {
+  border: rem(1px) solid $grey-medium;
+  width: rem(40px);
+  margin: rem(24px) 0;
+}
+
+.offer-educational-stock-form-layout .offer-educational-stock-banner {
+  margin: rem(24px) 0;
+}

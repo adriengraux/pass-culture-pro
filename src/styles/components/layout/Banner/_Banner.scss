@@ -1,0 +1,40 @@
+.bi-banner {
+  &.attention {
+    background: $attention;
+  }
+
+  &.notification-info {
+    background: $notification-info;
+  }
+
+  &.light {
+    background: $grey-light;
+    color: $grey-dark;
+  }
+
+  border-radius: 6px;
+  margin: rem(16px) 0;
+  padding: rem(7px) rem(15px);
+
+  > p {
+    margin: rem(5px) 0;
+  }
+
+  button {
+    background: none;
+    border: none;
+    float: right;
+  }
+}
+
+.bi-link {
+  &.bi-external-link--mod-topright {
+    position: absolute;
+    right: 0;
+    top: rem(-6px);
+  }
+}
+
+.domain-name-banner {
+  margin: rem(0px) 0 rem(32px) 0;
+}

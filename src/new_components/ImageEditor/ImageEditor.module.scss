@@ -1,0 +1,37 @@
+.image-editor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  margin: 0 auto;
+  border: rem(2px) solid $grey-light;
+  border-bottom-left-radius: rem(4px);
+  border-bottom-right-radius: rem(4px);
+
+  &-label {
+    @include body;
+    padding-top: rem(24px);
+  }
+
+  &-scale {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding-top: rem(8px);
+    padding-bottom: rem(24px);
+
+    &-label {
+      @include caption;
+      margin-left: rem(28px);
+      margin-right: rem(28px);
+      padding-bottom: rem(4px);
+      color: $grey-dark;
+    }
+
+    &-input {
+      display: inline-flex;
+      flex-grow: 1;
+    }
+  }
+}

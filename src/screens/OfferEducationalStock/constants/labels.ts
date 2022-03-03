@@ -1,0 +1,6 @@
+export const EVENT_DATE_LABEL = 'Date'
+export const EVENT_TIME_LABEL = 'Horaire'
+export const NUMBER_OF_PLACES_LABEL = 'Nombre de places'
+export const TOTAL_PRICE_LABEL = 'Prix total'
+export const BOOKING_LIMIT_DATETIME_LABEL = 'Date limite de réservation'
+export const DETAILS_PRICE_LABEL = 'Détails'

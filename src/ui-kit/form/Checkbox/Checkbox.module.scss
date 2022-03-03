@@ -1,0 +1,6 @@
+.checkbox {
+  &-error {
+    margin-top: rem($input-space-before-error);
+    min-height: rem($input-error-reserved-space);
+  }
+}

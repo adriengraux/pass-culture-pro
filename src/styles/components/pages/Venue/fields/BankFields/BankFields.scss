@@ -1,0 +1,7 @@
+.bank-instructions-label {
+  @include highlight();
+
+  color: $primary;
+  line-height: normal;
+  margin-bottom: rem(18px);
+}

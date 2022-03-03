@@ -1,0 +1,120 @@
+
+.reimbursements-page {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: rem(34px);
+    padding-bottom: rem(36px);
+
+    &-title {
+      @include title3();
+    }
+  }
+
+  .reset-filters {
+    @include body-important();
+
+    color: $primary;
+    line-height: rem(22px);
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+
+    &:disabled {
+      color: $grey-dark;
+
+      &:hover,
+      &:focus {
+        cursor: auto;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .filters {
+    align-content: stretch;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: rem(32px);
+
+    .input-select {
+      flex: 1;
+      margin-right: rem(24px);
+
+      select {
+        width: 100%;
+      }
+    }
+
+    .period-filter-inputs {
+      margin-top: rem(8px);
+    }
+  }
+
+  .button-group {
+    margin-bottom: rem(16px);
+    position: relative;
+
+    .search-button {
+      padding: 0 rem(32px);
+    }
+
+    &-buttons {
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+      > button {
+        margin: 0 rem(12px);
+        min-width: rem(148px);
+      }
+    }
+
+    &-separator {
+      border-bottom: 1px solid $grey-medium;
+      display: block;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+    }
+  }
+
+  .format-mention {
+    text-align: center;
+  }
+
+  .no-refunds {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    &.admin-view {
+      margin-top: rem(32px);
+    }
+  }
+
+  .no-refunds-title {
+    @include title4();
+
+    margin: rem(16px) 0;
+  }
+
+  .no-refunds-description {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    button {
+      margin: rem(8px) 0;
+    }
+  }
+
+  .admin-view-description {
+    color: $grey-dark;
+    margin-top: rem(18px);
+    text-align: center;
+    width: 52%;
+  }
+}
